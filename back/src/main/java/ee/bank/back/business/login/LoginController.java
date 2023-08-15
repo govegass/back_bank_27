@@ -1,4 +1,4 @@
-package ee.bank.back.business;
+package ee.bank.back.business.login;
 
 import ee.bank.back.infrastructure.infrastructure.error.ApiError;
 import io.swagger.v3.oas.annotations.Operation;

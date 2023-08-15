@@ -1,4 +1,4 @@
-package ee.bank.back.business;
+package ee.bank.back.business.login;
 
 import ee.bank.back.domain.user.User;
 import lombok.AllArgsConstructor;

@@ -20,11 +20,19 @@ CREATE TABLE "user" (
     CONSTRAINT user_pk PRIMARY KEY (id)
 );
 
+CREATE TABLE city
+(
+    id   serial       NOT NULL,
+    name varchar(255) NOT NULL,
+    CONSTRAINT city_ak_1 UNIQUE (name) NOT DEFERRABLE INITIALLY IMMEDIATE,
+    CONSTRAINT city_pk PRIMARY KEY (id)
+);
+
 -- Reference: user_role (table: user)
 ALTER TABLE "user" ADD CONSTRAINT user_role
     FOREIGN KEY (role_id)
-    REFERENCES role (id)  
-    NOT DEFERRABLE 
+    REFERENCES role (id)
+    NOT DEFERRABLE
     INITIALLY IMMEDIATE
 ;
 

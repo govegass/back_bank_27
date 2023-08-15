@@ -1,6 +1,6 @@
 package ee.bank.back.domain.user;
 
-import ee.bank.back.business.LoginResponse;
+import ee.bank.back.business.login.LoginResponse;
 import org.mapstruct.*;
 
 @Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE, componentModel = MappingConstants.ComponentModel.SPRING)
