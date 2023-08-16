@@ -3,7 +3,7 @@
   <component name="JpaBuddyIdeaProjectConfig" newRepositoryParent="org.springframework.data.jpa.repository.JpaRepository">
     <option name="defaultUnitInitialized" value="true" />
     <option name="renamerInitialized" value="true" />
-    <option name="reverseEngineeringLastDbConnectionId" value="15ecc932-a173-4099-81d2-29fe5dfcc269" />
+    <option name="reverseEngineeringLastDbConnectionId" value="15ecc932-a173-4099-81d2-29fe5dfcc269__postgres_public" />
     <option name="reLastEntityCreationPackage" value="back/src/main/java/ee/bank/back/domain/city" />
   </component>
 </project>
